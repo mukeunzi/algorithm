@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ovenClock {
+public class OvenClock {
 
 	public static void main(String[] args) {
 		int hour;

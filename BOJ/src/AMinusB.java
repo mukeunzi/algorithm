@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class aMinusB {
+public class AMinusB {
 
 	public static void main(String[] args) {
 		int a, b;

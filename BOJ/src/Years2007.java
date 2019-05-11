@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class years2007 {
+public class Years2007 {
 
 	public static void main(String[] args) {
 		int sum = 0;

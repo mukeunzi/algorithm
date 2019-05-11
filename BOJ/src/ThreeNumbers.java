@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class threeNumbers {
+public class ThreeNumbers {
 
 	public static void main(String[] args) {
 		int arr[] = new int[3];

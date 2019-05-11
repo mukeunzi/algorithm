@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class sortInside {
+public class SortInside {
 
 	public static void main(String[] args) {
 		String strNum = "";

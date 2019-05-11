@@ -2,7 +2,7 @@ package level1;
 
 import java.util.ArrayList;
 
-public class hateSameNumber {
+public class HateSameNumber {
 	
 	public int[] solution(int []arr) {
         ArrayList<Integer> list = new ArrayList<>();

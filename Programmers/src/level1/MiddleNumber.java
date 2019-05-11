@@ -1,6 +1,6 @@
 package level1;
 
-public class middleNumber {
+public class MiddleNumber {
 	
 	  public String solution(String s) {
 	      String answer = "";

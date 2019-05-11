@@ -2,7 +2,7 @@ package level1;
 
 import java.util.Arrays;
 
-public class kNumber {
+public class KNumber {
 	
     public int[] solution(int[] array, int[][] commands) {
         int[] answer = new int[commands.length];

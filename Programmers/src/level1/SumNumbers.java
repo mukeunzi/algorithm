@@ -1,6 +1,6 @@
 package level1;
 
-public class sumNumbers {
+public class SumNumbers {
 
   public long solution(int a, int b) {
 		int big, small;

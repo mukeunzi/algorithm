@@ -1,6 +1,6 @@
 package level1;
 
-public class checkSqrt {
+public class CheckSqrt {
 
 	public long solution(long n) {
 		if(Math.pow(Math.ceil(Math.sqrt(n)), 2) == n){

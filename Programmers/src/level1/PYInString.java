@@ -1,6 +1,6 @@
 package level1;
 
-public class pyInString {
+public class PYInString {
 
 	boolean solution(String s) {
 		int pCount = 0;

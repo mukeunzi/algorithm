@@ -2,7 +2,7 @@ package level1;
 
 import java.util.Arrays;
 
-public class notFinishedPlayer {
+public class NotFinishedPlayer {
 	
     public String solution(String[] participant, String[] completion) {
         String answer = "";

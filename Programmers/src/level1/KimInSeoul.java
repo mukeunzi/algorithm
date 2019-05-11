@@ -1,6 +1,6 @@
 package level1;
 
-public class kimInSeoul {
+public class KimInSeoul {
 	
 public String solution(String[] seoul) {
 	String answer = "";

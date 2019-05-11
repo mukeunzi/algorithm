@@ -1,6 +1,6 @@
 package level1;
 
-public class collatzConjecture {
+public class CollatzConjecture {
 	
 	public int solution(int num) {      
 		for(int i=0; i<500; i++){

@@ -1,6 +1,6 @@
 package level1;
 
-public class harshadNumber {
+public class HarshadNumber {
 	
 	public boolean solution(int x) {
 		String strX = Integer.toString(x);

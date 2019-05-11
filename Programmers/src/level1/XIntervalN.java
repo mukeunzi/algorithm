@@ -1,6 +1,6 @@
 package level1;
 
-public class xIntervalN {
+public class XIntervalN {
 	public long[] solution(int x, int n) {
 		long[] answer = new long[n];
 		long sum = x;

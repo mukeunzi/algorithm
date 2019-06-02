@@ -2,23 +2,12 @@ import java.util.*;
 
 class Phonekemon {
     public int solution(int[] nums) {
-        int temp = 0;
-        int maxResult = 0;
+        HashSet numList = new HashSet<Integer>();
         
-        Arrays.sort(nums);
-        
-        temp = nums[0];
-        maxResult++;
-        for(int i=1; i<nums.length; i++){
-            if(maxResult == nums.length / 2){
-                break;
-            }
-            if(temp != nums[i]){
-                maxResult++;
-                temp = nums[i];
-            }
+        for(int i=0; i<nums.length; i++){
+            numList.add(nums[i]);
         }
         
-        return maxResult;
+        return (numList.size() > nums.length/2) ? nums.length/2 : numList.size();
     }
 }

@@ -2,25 +2,14 @@ const solution = record => {
 	const nameMap = makeRecordName(record);
 
 	const resultMsg = [];
+
 	for (let i = 0; i < record.length; i++) {
 		let splitRecord = record[i].split(' ');
 
 		if (splitRecord[0] === 'Enter') {
-			let name = nameMap.get(splitRecord[1]);
-
-			if (name) {
-				resultMsg.push(`${name}님이 들어왔습니다.`);
-			} else {
-				resultMsg.push(`${splitRecord[1]}님이 들어왔습니다.`);
-			}
+			resultMsg.push(`${nameMap.get(splitRecord[1])}님이 들어왔습니다.`);
 		} else if (splitRecord[0] === 'Leave') {
-			let name = nameMap.get(splitRecord[1]);
-
-			if (name) {
-				resultMsg.push(`${name}님이 나갔습니다.`);
-			} else {
-				resultMsg.push(`${splitRecord[1]}님이 나갔습니다.`);
-			}
+			resultMsg.push(`${nameMap.get(splitRecord[1])}님이 나갔습니다.`);
 		}
 	}
 
@@ -40,3 +29,13 @@ const makeRecordName = record => {
 
 	return nameMap;
 };
+
+const arr = [
+	'Enter uid1234 Muzi',
+	'Enter uid4567 Prodo',
+	'Leave uid1234',
+	'Enter uid1234 Prodo',
+	'Change uid4567 Ryan'
+];
+
+console.log(solution(arr));
